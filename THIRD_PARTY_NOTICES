@@ -1,0 +1,56 @@
+THIRD-PARTY NOTICES
+===================
+
+This software (icd10cm-api) incorporates data derived from the
+ICD-10-CM (International Classification of Diseases, 10th Revision,
+Clinical Modification) code set.
+
+-------------------------------------------------------------------------------
+ICD-10-CM Data
+-------------------------------------------------------------------------------
+
+Source:       National Center for Health Statistics (NCHS)
+              Centers for Disease Control and Prevention (CDC)
+              U.S. Department of Health and Human Services
+
+Website:      https://www.cdc.gov/nchs/icd/icd-10-cm.htm
+              https://www.cms.gov/medicare/coding-billing/icd-10-codes
+
+License:      Public Domain (United States Government Work)
+
+              ICD-10-CM is a modification of the World Health Organization's
+              ICD-10 classification system and is published by the U.S. federal
+              government. As a work of the United States Government produced
+              by an officer or employee of the United States Government as
+              part of that person's official duties, it is not subject to
+              copyright protection and is in the public domain within the
+              United States (17 U.S.C. § 105).
+
+              No license restrictions apply to the use, reproduction, or
+              distribution of ICD-10-CM data. Attribution to the CDC/NCHS
+              is encouraged as a matter of professional courtesy.
+
+Disclaimer:   The ICD-10-CM code set is updated annually. Users of this API
+              are responsible for ensuring they are referencing the applicable
+              code year for their use case. This API does not constitute
+              medical advice. Always consult a qualified medical coder or
+              healthcare professional for clinical coding decisions.
+
+-------------------------------------------------------------------------------
+ICD-10 (WHO Base Classification)
+-------------------------------------------------------------------------------
+
+Source:       World Health Organization (WHO)
+Website:      https://www.who.int/standards/classifications/classification-of-diseases
+
+Note:         The ICD-10-CM is a clinical modification of the WHO's ICD-10.
+              The CM edition used in this API is the U.S. government version
+              (CDC/NCHS), which is in the public domain as described above.
+              The underlying WHO ICD-10 system is subject to WHO copyright
+              for uses outside of the clinical modification distributed by
+              the U.S. government.
+
+-------------------------------------------------------------------------------
+
+All original source code in this repository is licensed under the MIT License.
+See the LICENSE file for details.

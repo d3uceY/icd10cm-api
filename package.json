@@ -15,8 +15,8 @@
     "url": "git+https://github.com/d3uceY/icd10cm-api.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "d3uceY",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/d3uceY/icd10cm-api/issues"
