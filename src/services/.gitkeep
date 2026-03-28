@@ -1,0 +1,5 @@
+# Services
+
+Place business logic here, one file per domain (e.g., `icd10.service.ts`).
+
+Services are called by controllers and should be framework-agnostic — no Express `Request`/`Response` types here.
