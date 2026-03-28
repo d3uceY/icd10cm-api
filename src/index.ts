@@ -4,7 +4,11 @@ import { loadICD } from './services/icd.services';
 
 const server = app.listen(config.port, () => {
     loadICD();
-    console.log(`[server] Running in ${config.nodeEnv} mode on port ${config.port}`);
+    console.log('');
+    console.log(`  version : ${config.appVersion}  ${config.appMoniker}`);
+    console.log(`  env     : ${config.nodeEnv}`);
+    console.log(`  port    : ${config.port}`);
+    console.log('');
 });
 
 // Graceful shutdown
