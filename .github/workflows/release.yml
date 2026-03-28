@@ -32,7 +32,7 @@ jobs:
           echo "semver=${TAG#v}" >> "$GITHUB_OUTPUT"
 
       - name: Bump package.json version
-        run: npm version "${{ steps.ver.outputs.semver }}" --no-git-tag-version
+        run: npm pkg set version="${{ steps.ver.outputs.semver }}"
 
       - name: Commit and push version bump
         run: |
